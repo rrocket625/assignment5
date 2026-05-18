@@ -686,3 +686,22 @@ nav{
         border-radius: 8px;
     }
 }
+
+#made-by {
+    text-align: center;
+    padding: 20px;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    color: #888;
+    letter-spacing: 0.05em;
+}
+
+.name {
+    font-weight: 600;
+    color: #333;
+}
+
+@media (max-width: 500px) {
+   #made-by{
+        margin-top: 450px;
+    }
+}
